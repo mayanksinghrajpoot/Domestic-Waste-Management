@@ -1,0 +1,40 @@
+body{font-weight: bold;
+    background-image: url(waste\ management.jpg);
+    background-size: cover;
+}
+.wrap{
+    width: 800px;
+    height: 700px;
+    margin: 30px auto;
+}
+h1{
+    font-size: 70px;
+    color:white ;
+    text-align: center;
+    border-bottom: 2px solid white;
+
+}
+table{
+    font-size:30 px ;
+}
+td{
+    padding: 10px 20px 0px 0px;
+
+}
+.txt{
+    width: 400px;
+    height: 50px;
+    border-radius:8px ;
+}
+.textarea{
+    width: 830px;
+    height: 150px;
+    border-radius:8px ;
+}
+.btn{
+    width: 830px;
+    height: 50px;
+    background-color: darkblue;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;}
