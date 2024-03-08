@@ -10,17 +10,17 @@ body{
   background-size: cover;
 }
 .A img{
-  float: right;
+  /* float: right; */
   
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+  height: 350px;
+  width: 700px;
+  border-radius: 5%;
 }
 nav{
   height: 50px;
   width: 100%;
   background-size: cover;
-  background: linear-gradient(to right,blue,aqua);
+  background: linear-gradient(to right,#545454,gray);
   /* top: 0px; */
   position: relative; 
   margin-left: -30px;
@@ -36,11 +36,12 @@ nav button a{
   float: right;
 }
 .side_view{
-  width: 25%;
+  width: 24%;
+  height: 100vh;
   float: left;
   position: fixed;
-  /* border: 5px black; */
-  /* box-shadow: rgba(0,0,0,1.8); */
+  border: 5px solid white;
+  box-shadow:1px 1px 1px 1px rgba(0,0,0,0.5);
 }
 li a{
   color: green;
@@ -57,4 +58,20 @@ b{
 }
 h4{
   color: #1f51ff;
+}
+#side_b{
+  color: white;
+  background: gray;
+}
+footer{
+  height: 80px;
+  background: gray;
+}
+footer img{
+  height: 35px;
+  width: 35px;
+}
+footer a{
+  text-decoration: none;
+  padding: 5px 10px 20px 10px;
 }
